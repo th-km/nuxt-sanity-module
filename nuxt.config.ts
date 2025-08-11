@@ -9,9 +9,4 @@ export default defineNuxtConfig({
     apiVersion: process.env.NUXT_SANITY_API_VERSION,
     useCdn: false
   }
-  //vite: {
-  //  optimizeDeps: {
-  //    include: ['react-compiler-runtime', 'react', 'react-dom']
-  //  }
-  //}
 })
